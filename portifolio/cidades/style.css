@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(75,233,255);
+    background: linear-gradient(180deg, rgba(75,233,255,1) 0%, rgba(227,227,227,1) 100%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.cidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cartao {
+    background-color: aliceblue;
+    width: 21rem;
+    height: 28rem;
+    text-align: center;
+    padding: 10px;
+    border: 10px double black;
+    border-radius: 30px;
+    color: cadetblue;
+    font-weight: bold;
+    justify-self: center;
+    box-shadow: 16px 17px 48px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 16px 17px 48px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 17px 48px 2px rgba(0,0,0,0.75);
+}
+.cartao:hover {
+    cursor: pointer;
+    transform: scale(1.12);
+}
+
+.foto {
+    width: 100%;
+}
+
+.nome {
+    color: crimson;
+    margin-bottom: 1rem;
+}
+
+.estado {
+    font-size: larger;
+}
+.pais {
+    font-size: larger;
+}
+.habitantes {
+    font-size: larger;
+}
+.fundacao {
+    font-size: larger;
+}
+
